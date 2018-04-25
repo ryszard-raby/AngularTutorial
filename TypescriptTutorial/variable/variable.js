@@ -8,6 +8,10 @@ var Variables = /** @class */ (function () {
         }
         console.log(i);
     };
+    Variables.prototype.showConst = function () {
+        var num = 100;
+        console.log(num);
+    };
     return Variables;
 }());
 var variable = new Variables();

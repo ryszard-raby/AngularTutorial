@@ -6,6 +6,11 @@ class Variables{
         }
         console.log(i);
     }
+
+    showConst(){
+        const num = 100;
+        console.log(num);
+    }
 }
 
 let variable = new Variables();
