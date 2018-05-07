@@ -25,6 +25,6 @@ let dinosaur: Dinosaur = ({name: 'T-Rex', age: 23, color: 'gray'})
 console.log(dinosaur)
 
 let json = '{"name": "Stegosaurus", "age": 14, "color": "green", "date": "2018-04-25"}';
-let myDino: Dinosaurr = JSON.parse(json)
+let myDino: Dinosaur = JSON.parse(json)
 
 console.log(myDino)
